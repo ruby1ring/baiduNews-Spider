@@ -30,42 +30,58 @@ go mod tidy
 
 ```
 #获取所有类别负面新闻
-139.224.17.6/AllNews
+139.224.17.6:8080/AllNews
 
 #获取世界类别负面新闻
-139.224.17.6/News/World
+139.224.17.6:8080/News/World
 
 #获取娱乐类别负面新闻
-139.224.17.6/News/Entertainment
+139.224.17.6:8080/News/Entertainment
 
 #获取体育类别负面新闻
-139.224.17.6/News/Sports
+139.224.17.6:8080/News/Sports
 
 #获取财经类别负面新闻
-139.224.17.6/News/Finance
+139.224.17.6:8080/News/Finance
 
 #获取科技类别负面新闻
-139.224.17.6/News/Technology
+139.224.17.6:8080/News/Technology
 
 #获取军事类别负面新闻
-139.224.17.6/News/Military
+139.224.17.6:8080/News/Military
 
 #获取互联网类别负面新闻
-139.224.17.6/News/Internet
+139.224.17.6:8080/News/Internet
 
 #获取探索类别负面新闻
-139.224.17.6/News/Discovery
+139.224.17.6:8080/News/Discovery
 
 #获取女士类别负面新闻
-139.224.17.6/News/Lady
+139.224.17.6:8080/News/Lady
 
 #获取健康类别负面新闻
-139.224.17.6/News/Healthy
+139.224.17.6:8080/News/Healthy
 
 ```
+
+## 🐢 View(公网接口请求示意图)
+
+获取所有类别负面新闻展示截图
+
+![](image/README/1651914296255.png)
+
+获取世界类别负面新闻
+
+![](image/README/1651915078815.png)
 
 ## ⏳  TODO LIST
 
 * 数据库持久化以往新闻内容
 * 配置信息JSON化
+
 * Dokcer化，保证项目的自动运维
+* 前端页面
+
+## 🌏 致谢
+
+本实习项目由梁斌大佬提供，在此由衷感谢梁博给我这一次做爬虫项目的机会！

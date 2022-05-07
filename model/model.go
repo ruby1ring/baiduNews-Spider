@@ -11,7 +11,7 @@ import (
 
 type BaiduNews struct{
 	NewsCategory string  `json:"newsCategory,omitempty"`
-	NewsContext  []Context `json:"newsContext"`
+	NewsContext  []Context `json:"newsContext,omitempty"`
 }
 
 type Context struct{
